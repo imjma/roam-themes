@@ -8,4 +8,6 @@ Install [Stylus](https://github.com/openstyles/stylus/) and [SF Compact and SF M
 
 **WIP**
 
+- [ ] Code Block
+
 [Gruvbox](https://github.com/morhetz/gruvbox) is one of my favorite color schemes.
