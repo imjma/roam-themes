@@ -29,6 +29,21 @@ span {
   color: #fbf1c7;
 }
 
+.bp3-button.bp3-small.block-ref-count-button {
+  background-color: #1d2021;
+  color: #fbf1c7;
+}
+
+/* ### Embed ### */
+.rm-embed-container {
+  background-color: #1d2021;
+}
+
+/* ### References ### */
+.rm-reference-item {
+  background-color: #1d2021;
+}
+
 /* ### SIDEBAR ### */
 .roam-body .roam-app .roam-sidebar-container {
   background-color: #1d2021;
