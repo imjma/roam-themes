@@ -1,10 +1,16 @@
+:root {
+  --primary-color: #fbf1c7;
+  --background-color: #282828;
+  --background-color-darkest: #1d2021;
+}
+
 div,
 textarea {
   font-family: "SF Compact Text", Inter;
 }
 
 .roam-body {
-  background-color: #282828;
+  background-color: var(--background-color);
 }
 
 .rm-page-ref,
@@ -18,7 +24,7 @@ span {
 }
 
 span[style~="cursor:"] {
-  background-color: #1d2021 !important;
+  background-color: var(--background-color-darkest) !important;
   color: #fb4934 !important;
 }
 
@@ -27,16 +33,16 @@ span[style~="cursor:"] {
 }
 
 .roam-body .roam-app h1 {
-  color: #fbf1c7;
+  color: var(--primary-color);
 }
 
 .roam-body-main {
-  color: #fbf1c7;
+  color: var(--primary-color);
 }
 
 .bp3-button.bp3-small.block-ref-count-button {
-  background-color: #282828;
-  color: #fbf1c7;
+  background-color: var(--background-color);
+  color: var(--primary-color);
 }
 
 /* ### ALLPAGES ### */
@@ -45,7 +51,7 @@ span[style~="cursor:"] {
 }
 
 .rm-pages-title-text {
-  color: #fbf1c7;
+  color: var(--primary-color);
 }
 
 span.title-children-text {
@@ -57,32 +63,37 @@ span.title-children-text {
 }
 
 span.sorted-header-text {
-  color: #fbf1c7;
+  color: var(--primary-color);
 }
 
 .rm-clickable-pill.empty-pill {
-  background-color: #282828;
-  color: #fbf1c7;
+  background-color: var(--background-color);
+  color: var(--primary-color);
 }
 
 .rm-clickable-pill {
-  background-color: #1d2021;
-  color: #fbf1c7;
+  background-color: var(--background-color-darkest);
+  color: var(--primary-color);
 }
 
 /* ### Embed ### */
 .rm-embed-container {
-  background-color: #1d2021;
+  background-color: var(--background-color-darkest);
 }
 
 /* ### References ### */
 .rm-reference-item {
-  background-color: #1d2021;
+  background-color: var(--background-color-darkest);
+}
+
+.rm-block-ref:hover {
+  background-color: var(--background-color-darkest);
+  color: var(--primary-color);
 }
 
 /* ### SIDEBAR ### */
 .roam-body .roam-app .roam-sidebar-container {
-  background-color: #1d2021;
+  background-color: var(--background-color-darkest);
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
@@ -98,7 +109,7 @@ span.sorted-header-text {
 
 /* ### TOPBAR ### */
 .roam-topbar {
-  background-color: #282828;
+  background-color: var(--background-color);
 }
 
 /* ### CODE ### */
@@ -110,16 +121,16 @@ code > span {
 }
 
 code {
-  border-color: #1d2021;
+  border-color: var(--background-color-darkest);
 }
 
 .CodeMirror-sizer {
-  background: #282828;
+  background: var(--background-color);
   color: #8ec07c;
 }
 
 .CodeMirror-gutter {
-  background: #1d2021;
+  background: var(--background-color-darkest);
 }
 
 .CodeMirror .CodeMirror-code pre {
@@ -134,9 +145,9 @@ code {
 }
 
 .bp3-elevation-3 > div:hover {
-  background-color: #282828;
+  background-color: var(--background-color);
 }
 
 .bp3-elevation-3 .dont-unfocus-block[style~="background-color:"] {
-  background-color: #1d2021 !important;
+  background-color: var(--background-color-darkest) !important;
 }
