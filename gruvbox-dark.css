@@ -20,7 +20,7 @@ a:hover {
 }
 
 span {
-  color: #fbf1c7;
+  color: var(--primary-color);
 }
 
 span[style~="cursor:"] {
@@ -104,7 +104,7 @@ span.sorted-header-text {
   .starred-pages-wrapper
   .starred-pages
   .page {
-  color: #fbf1c7;
+  color: var(--primary-color);
 }
 
 /* ### TOPBAR ### */
@@ -150,4 +150,8 @@ code {
 
 .bp3-elevation-3 .dont-unfocus-block[style~="background-color:"] {
   background-color: var(--background-color-darkest) !important;
+}
+
+.bp3-popover .bp3-popover-content {
+  color: var(--background-color);
 }
