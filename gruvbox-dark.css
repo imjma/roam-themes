@@ -19,7 +19,7 @@ span {
 
 span[style~="cursor:"] {
   background-color: #1d2021 !important;
-    color: #fb4934 !important;
+  color: #fb4934 !important;
 }
 
 .controls .simple-bullet-outer .simple-bullet-inner {
@@ -35,18 +35,49 @@ span[style~="cursor:"] {
 }
 
 .bp3-button.bp3-small.block-ref-count-button {
-    background-color: #1d2021;
-    color:#fbf1c7;
+  background-color: #282828;
+  color: #fbf1c7;
+}
+
+/* ### ALLPAGES ### */
+.rm-all-pages span {
+  color: #a89984;
+}
+
+.rm-pages-title-text {
+  color: #fbf1c7;
+}
+
+span.title-children-text {
+  color: #a89984;
+}
+
+#rm-all-pages-column-titles {
+  background-color: #665c54;
+}
+
+span.sorted-header-text {
+  color: #fbf1c7;
+}
+
+.rm-clickable-pill.empty-pill {
+  background-color: #282828;
+  color: #fbf1c7;
+}
+
+.rm-clickable-pill {
+  background-color: #1d2021;
+  color: #fbf1c7;
 }
 
 /* ### Embed ### */
 .rm-embed-container {
-    background-color: #1d2021;
+  background-color: #1d2021;
 }
 
 /* ### References ### */
 .rm-reference-item {
-    background-color: #1d2021;
+  background-color: #1d2021;
 }
 
 /* ### SIDEBAR ### */
