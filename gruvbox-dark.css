@@ -1,0 +1,94 @@
+div,
+textarea {
+  font-family: "SF Compact Text", Inter;
+}
+
+.roam-body {
+  background-color: #282828;
+}
+
+.rm-page-ref,
+a,
+a:hover {
+  color: #cc241d;
+}
+
+span {
+  color: #fbf1c7;
+}
+
+.controls .simple-bullet-outer .simple-bullet-inner {
+  background-color: #928374;
+}
+
+.roam-body .roam-app h1 {
+  color: #fbf1c7;
+}
+
+.roam-body-main {
+  color: #fbf1c7;
+}
+
+/* ### SIDEBAR ### */
+.roam-body .roam-app .roam-sidebar-container {
+  background-color: #1d2021;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
+.roam-body
+  .roam-app
+  .roam-sidebar-container
+  .roam-sidebar-content
+  .starred-pages-wrapper
+  .starred-pages
+  .page {
+  color: #fbf1c7;
+}
+
+/* ### TOPBAR ### */
+.roam-topbar {
+  background-color: #282828;
+}
+
+/* ### CODE ### */
+code,
+code > span {
+  background: #3c3836;
+  color: #8ec07c;
+  font-family: "SF Mono";
+}
+
+code {
+  border-color: #1d2021;
+}
+
+.CodeMirror-sizer {
+  background: #282828;
+  color: #8ec07c;
+}
+
+.CodeMirror-gutter {
+  background: #1d2021;
+}
+
+.CodeMirror .CodeMirror-code pre {
+  font-family: "SF Mono";
+  font-size: 0.9em;
+}
+
+.cm-s-default .cm-builtin {
+}
+
+/* ### POPUP ### */
+
+.bp3-elevation-3 {
+  background-color: #504945 !important;
+}
+
+.bp3-elevation-3 > div:hover {
+  background-color: #282828;
+}
+
+.bp3-elevation-3 .dont-unfocus-block[style~="background-color:"] {
+  background-color: #1d2021 !important;
+}
