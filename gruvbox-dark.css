@@ -1,8 +1,14 @@
 :root {
   --primary-color: #fbf1c7;
+  --primary-light-color: #d5c4a1;
+  --primary-darkest-color: #a89984;
   --background-color: #282828;
-  --background-color-darkest: #1d2021;
+  --background-dark-color: #1d2021;
+  --background-medium-color: #3c3836;
+  /* --background-soft-color: #504945; */
+  --background-light-color: #665c54;
   --link-color: #d3869b;
+  --code-highlight-color: #8ec07c;
 }
 
 body,
@@ -30,7 +36,7 @@ span {
 }
 
 span[style~="cursor:"] {
-  background-color: var(--background-color-darkest) !important;
+  background-color: var(--background-dark-color) !important;
   color: var(--link-color) !important;
 }
 
@@ -53,7 +59,7 @@ span[style~="cursor:"] {
 
 /* ### ALLPAGES ### */
 .rm-all-pages span {
-  color: #a89984;
+  color: var(--primary-darkest-color);
 }
 
 .rm-pages-title-text {
@@ -61,11 +67,11 @@ span[style~="cursor:"] {
 }
 
 span.title-children-text {
-  color: #a89984;
+  color: var(--primary-darkest-color);
 }
 
 #rm-all-pages-column-titles {
-  background-color: #665c54;
+  background-color: var(--background-light-color);
 }
 
 span.sorted-header-text {
@@ -78,28 +84,28 @@ span.sorted-header-text {
 }
 
 .rm-clickable-pill {
-  background-color: var(--background-color-darkest);
+  background-color: var(--background-dark-color);
   color: var(--primary-color);
 }
 
 /* ### Embed ### */
 .rm-embed-container {
-  background-color: var(--background-color-darkest);
+  background-color: var(--background-dark-color);
 }
 
 /* ### References ### */
 .rm-reference-item {
-  background-color: var(--background-color-darkest);
+  background-color: var(--background-dark-color);
 }
 
 .rm-block-ref:hover {
-  background-color: var(--background-color-darkest);
+  background-color: var(--background-dark-color);
   color: var(--primary-color);
 }
 
 /* ### SIDEBAR ### */
 .roam-body .roam-app .roam-sidebar-container {
-  background-color: var(--background-color-darkest);
+  background-color: var(--background-dark-color);
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
@@ -115,7 +121,7 @@ span.sorted-header-text {
 
 /* ### RIGHT SIDEBAR ### */
 #right-sidebar {
-  background-color: var(--background-color-darkest) !important;
+  background-color: var(--background-dark-color) !important;
 }
 
 /* ### TOPBAR ### */
@@ -126,22 +132,22 @@ span.sorted-header-text {
 /* ### CODE ### */
 code,
 code > span {
-  background: #3c3836;
-  color: #8ec07c;
+  background: var(--background-medium-color);
+  color: var(--code-highlight-color);
   font-family: "SF Mono", monospace;
 }
 
 code {
-  border-color: var(--background-color-darkest);
+  border-color: var(--background-dark-color);
 }
 
 .CodeMirror-sizer {
   background: var(--background-color);
-  color: #8ec07c;
+  color: var(--code-highlight-color);
 }
 
 .CodeMirror-gutter {
-  background: var(--background-color-darkest);
+  background: var(--background-dark-color);
 }
 
 .CodeMirror .CodeMirror-code pre {
@@ -152,7 +158,7 @@ code {
 /* ### POPUP ### */
 
 .bp3-elevation-3 {
-  background-color: #504945 !important;
+  background-color: var(--background-medium-color) !important;
 }
 
 .bp3-elevation-3 > div:hover {
@@ -160,7 +166,7 @@ code {
 }
 
 .bp3-elevation-3 .dont-unfocus-block[style~="background-color:"] {
-  background-color: var(--background-color-darkest) !important;
+  background-color: var(--background-dark-color) !important;
 }
 
 .bp3-popover .bp3-popover-content,
@@ -176,4 +182,10 @@ code {
 .bp3-icon svg {
   /* Icons */
   color: var(--primary-color) !important;
+}
+
+/* ### HASHTAG ### */
+.rm-page-ref-tag {
+  color: var(--primary-light-color);
+  opacity: 0.4;
 }
