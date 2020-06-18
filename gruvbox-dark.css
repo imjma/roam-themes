@@ -2,11 +2,17 @@
   --primary-color: #fbf1c7;
   --background-color: #282828;
   --background-color-darkest: #1d2021;
+  --link-color: #d3869b;
+}
+
+body,
+html {
+  font-family: "SF Compact Text", Segoe UI, Roboto, sans-serif;
 }
 
 div,
 textarea {
-  font-family: "SF Compact Text", Inter;
+  font-family: "SF Compact Text", Inter, sans-serif;
 }
 
 .roam-body {
@@ -16,7 +22,7 @@ textarea {
 .rm-page-ref,
 a,
 a:hover {
-  color: #d3869b;
+  color: var(--link-color);
 }
 
 span {
@@ -25,7 +31,7 @@ span {
 
 span[style~="cursor:"] {
   background-color: var(--background-color-darkest) !important;
-  color: #fb4934 !important;
+  color: var(--link-color) !important;
 }
 
 .controls .simple-bullet-outer .simple-bullet-inner {
@@ -107,6 +113,11 @@ span.sorted-header-text {
   color: var(--primary-color);
 }
 
+/* ### RIGHT SIDEBAR ### */
+#right-sidebar {
+  background-color: var(--background-color-darkest) !important;
+}
+
 /* ### TOPBAR ### */
 .roam-topbar {
   background-color: var(--background-color);
@@ -117,7 +128,7 @@ code,
 code > span {
   background: #3c3836;
   color: #8ec07c;
-  font-family: "SF Mono";
+  font-family: "SF Mono", monospace;
 }
 
 code {
@@ -134,7 +145,7 @@ code {
 }
 
 .CodeMirror .CodeMirror-code pre {
-  font-family: "SF Mono";
+  font-family: "SF Mono", monospace;
   font-size: 0.9em;
 }
 
@@ -152,6 +163,7 @@ code {
   background-color: var(--background-color-darkest) !important;
 }
 
-.bp3-popover .bp3-popover-content {
-  color: var(--background-color);
+.bp3-popover .bp3-popover-content,
+.bp3-popover .bp3-popover-content span {
+  color: #202b33;
 }
