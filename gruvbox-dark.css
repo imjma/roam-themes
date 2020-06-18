@@ -167,3 +167,13 @@ code {
 .bp3-popover .bp3-popover-content span {
   color: #202b33;
 }
+
+/* ### ICON ### */
+.bp3-button::before,
+.bp3-icon-small::before,
+.bp3-icon::before,
+.bp3-icon-standard::before,
+.bp3-icon svg {
+  /* Icons */
+  color: var(--primary-color) !important;
+}

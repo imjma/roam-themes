@@ -15,7 +15,8 @@ Create a page called [[roam/css]] in your roamresearch workspace, adding a code 
 
 - [ ] Code Block
 - [ ] Tweet Embed
-- [ ] Icon color
+- [x] Icon color
+- [ ] Make core.css with variables
 
 [Gruvbox](https://github.com/morhetz/gruvbox) is one of my favorite color schemes.
 
