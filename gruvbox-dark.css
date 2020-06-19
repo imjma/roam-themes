@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --primary-color: #fbf1c7;
@@ -136,7 +137,7 @@ code,
 code > span {
   background: var(--background-medium-color);
   color: var(--code-highlight-color);
-  font-family: "SF Mono", monospace;
+  font-family: "Cousine", monospace;
 }
 
 code {
