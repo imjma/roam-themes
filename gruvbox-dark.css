@@ -43,7 +43,7 @@ span[style~="cursor:"] {
 }
 
 .controls .simple-bullet-outer .simple-bullet-inner {
-  background-color: #928374;
+  backgroud-color: #928374;
 }
 
 .roam-body .roam-app h1 {
@@ -191,3 +191,9 @@ code {
   color: var(--primary-light-color);
   opacity: 0.4;
 }
+
+/* ### PAGE ### */
+.zoom-path-view .rm-zoom-mask {
+  background-color: var(--background-color);
+}
+
