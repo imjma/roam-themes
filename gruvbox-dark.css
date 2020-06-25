@@ -132,6 +132,10 @@ span.sorted-header-text {
   background-color: var(--background-color);
 }
 
+#roam-right-sidebar-content button.bp3-button.bp3-minimal {
+  color: var(--primary-color);
+}
+
 /* ### CODE ### */
 code,
 code > span {
