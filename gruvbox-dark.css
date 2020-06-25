@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
   --primary-color: #fbf1c7;
@@ -11,6 +11,7 @@
   --background-light-color: #665c54;
   --link-color: #d3869b;
   --code-highlight-color: #8ec07c;
+  --highlight-background-color: #fabd2f;
 }
 
 body,
@@ -43,7 +44,7 @@ span[style~="cursor:"] {
 }
 
 .controls .simple-bullet-outer .simple-bullet-inner {
-  backgroud-color: #928374;
+  background-color: #928374;
 }
 
 .roam-body .roam-app h1 {
@@ -197,3 +198,11 @@ code {
   background-color: var(--background-color);
 }
 
+/* ### HIGHLIGHT ### */
+.roam-highlight {
+  background-color: var(--highlight-background-color);
+}
+
+.roam-highlight > span {
+  color: var(--background-color);
+}
