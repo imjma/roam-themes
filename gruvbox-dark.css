@@ -207,6 +207,6 @@ code {
   background-color: var(--highlight-background-color);
 }
 
-.roam-highlight > span {
+.roam-highlight span {
   color: var(--background-color);
 }
