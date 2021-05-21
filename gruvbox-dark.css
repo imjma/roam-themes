@@ -9,23 +9,19 @@
   --background-medium-color: #3c3836;
   /* --background-soft-color: #504945; */
   --background-light-color: #665c54;
-  --link-color: #d3869b;
+  --link-color: #d65d0e;
   --code-highlight-color: #8ec07c;
   --highlight-background-color: #fabd2f;
-}
-
-body,
-html {
-  font-family: "Google Sans", Segoe UI, Roboto, sans-serif;
-}
-
-div,
-textarea {
-  font-family: "Google Sans", Inter, sans-serif;
+  --text-muted: #999999;
+  /* --monospace-font: "Iosevka Custom", "JetBrains Mono", "SF Mono", monospace; */
 }
 
 .roam-body {
   background-color: var(--background-color);
+}
+
+.rm-page-ref--tag{
+  color: var(--text-muted) !important;
 }
 
 .rm-page-ref,
@@ -141,7 +137,7 @@ code,
 code > span {
   background: var(--background-medium-color);
   color: var(--code-highlight-color);
-  font-family: "Cousine", monospace;
+  /*font-family: var(--monospace-font);*/
 }
 
 code {
@@ -158,7 +154,7 @@ code {
 }
 
 .CodeMirror .CodeMirror-code pre {
-  font-family: "SF Mono", monospace;
+  /*font-family: var(--monospace-font);*/
   font-size: 0.9em;
 }
 
@@ -209,4 +205,12 @@ code {
 
 .roam-highlight span {
   color: var(--background-color);
+}
+
+.rm-bq {
+  background-color: var(--background-dark-color);
+}
+
+.rm-bullet__inner {
+  background-color: var(--primary-color);
 }
